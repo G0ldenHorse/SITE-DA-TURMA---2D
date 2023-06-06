@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    background-color:#0e0229;
+    color: WHITE;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20 px 0;
+}
+
+.cabecalho-imagem{
+    width: 20%;
+}
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 24px;
+}
+.cabecalho-lista-item :hover {
+    color: aqua;
+    text-decoration: underline;
+}
+.tecnico-imagem{
+    width: 30;
+}
+#tecnico{
+    background-image: linear-gradient(#0e0229,#4010ab);
+    color: white;
+    padding: 24px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tecnico-div-conteudo{
+    width: 35%;
+}
+.tecnico-titulo{
+    padding: 40px;
+    font-size: 20px;
+}
+.ilustra-curso{
+    height: 180px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.estudante.titulo{
+    text-align: center;
+    padding: 150px;
+}
+.estudante-imagem{
+    height: 120px;
+}
+.estudante-icone{
+    width: 24px;
+}
+.estudante-div{
+    text-align: center;
+}
+.estudante-titulo{
+    text-align: center;
+    background-color: #4010ab;
+    padding: 50px 0;
+    font-size: 40px;
+}
+.estudante-todos{
+    justify-content: center;
+    display: flex;
+    background-image: linear-gradient(#4010ab,#4400ff);
+    color: white;
+    gap: 150px;
+}
+.rodape {
+    background-color: #2d0e72;
+    color: white;
+    text-align: center;
+    padding:50px 0;
+}
+html{
+    scroll-behavior: smooth;
+}
